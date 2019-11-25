@@ -197,8 +197,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(21, 85, 152, 0.6)), to(rgba(21, 85, 152, 0.3))), url("../img/blBlogo.png") center top;
-  background: linear-gradient(to right, rgba(21, 85, 152, 0.6), rgba(21, 85, 152, 0.3)), url("../img/blBlogo.png") center top;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(21, 85, 152, 0.6)), to(rgba(21, 85, 152, 0.3))), url("../img/bBLogo.png") center;
+  background: linear-gradient(to right, rgba(21, 85, 152, 0.6), rgba(21, 85, 152, 0.3)), url("../img/bBLogo.png") center;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -217,11 +217,12 @@
 
 .about__bio-image p {
   margin-bottom: 2rem;
+  line-height: 1.5rem;
 }
 
 .about__bio {
   width: 80%;
-  text-align: center;
+  text-align: left;
 }
 
 .about__bio .text-secondary {
@@ -248,8 +249,9 @@
   margin: 0.5rem 0;
 }
 
-.about .jobs__job h6 {
+.about .jobs__job p {
   margin: 0.3rem 0;
+  line-height: 1.25rem;
 }
 
 .about .social-icons {
