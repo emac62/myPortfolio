@@ -1,0 +1,60 @@
+.myTasks {
+  padding: 4rem 0 2rem 0;
+
+  &__image { 
+    height: 50vh;
+      width: auto;
+      background: 
+          url('../img/myTasks512.png') center top;
+      background-size: auto;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+
+  }
+
+  &__info {
+
+    color: $black-color;
+
+  }
+
+  &__about {
+    p {
+      padding: 2rem 15% 0 15%;
+      line-height: 1.5rem;
+    }
+
+    .task-link {
+      width: 50vw;
+      margin: 2rem auto 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-gap: 2rem;
+      background-color: $grey-color;
+      padding: 0.5rem;
+      color: $black-color;
+      text-align: center;
+    }
+
+    .task-link:hover {
+      background-color: $black-color;
+      color: $grey-color;
+    }
+  }
+
+
+
+
+  .social-icons {
+      display: flex;
+      flex-direction: column;
+  }
+
+  footer {
+    transform: rotate(90deg) translate(-3rem, -5rem);
+  
+  }
+}

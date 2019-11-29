@@ -5,6 +5,8 @@
 @import 'projects';
 @import 'contact';
 @import 'responsive';
+@import 'mytasks';
+
 
 body {
     background: $background-color;
@@ -25,6 +27,11 @@ a {
 
 .text-secondary {
     color: $secondary-color;
+}
+
+.tasks-title {
+    color: $black-color;
+    font-weight: bold;
 }
 
 header {
@@ -53,6 +60,13 @@ main {
 
         }
     }
+}
+
+.logo {
+    padding: 0.5rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 footer {
