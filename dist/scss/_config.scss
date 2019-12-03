@@ -25,6 +25,12 @@ $red-color: #ea0a0a;
     }
 }
 
+@mixin media-sm {
+    @media screen and (max-width: 350px) {
+        @content;
+    }
+}
+
 @mixin media-md {
     @media screen and (min-width: 768px) {
         @content;
