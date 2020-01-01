@@ -7,6 +7,13 @@
 
         &__bio-image {
             height: 95vh;
+
+            p {
+                width: 80%;
+                padding: 0 5% 0 15%;
+                font-size: small;
+            }
+
         }
         
     }
@@ -72,6 +79,11 @@
 }
 
 @include media-xl {
+    .about__bio-image {
+        height: 60vh;
+        width: 100%;
+    }
+
     .projects__bio-image {
         height: 50vh;
     }

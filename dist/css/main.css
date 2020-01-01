@@ -197,8 +197,8 @@
 .about__bio-image {
   height: 50vh;
   width: 100%;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(21, 85, 152, 0.9)), to(rgba(21, 85, 152, 0.5))), url("../img/sunrise1.jpg") center bottom;
-  background: linear-gradient(to right, rgba(21, 85, 152, 0.9), rgba(21, 85, 152, 0.5)), url("../img/sunrise1.jpg") center bottom;
+  background: -webkit-gradient(linear, right top, left top, from(rgba(21, 85, 152, 0.5)), to(rgba(21, 85, 152, 0.2))), url("../img/bBLogo.jpg") left top;
+  background: linear-gradient(to left, rgba(21, 85, 152, 0.5), rgba(21, 85, 152, 0.2)), url("../img/bBLogo.jpg") left top;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -423,12 +423,17 @@
   margin-top: 2rem;
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 450px) {
   .home {
     padding-top: 0;
   }
   .about__bio-image {
     height: 95vh;
+  }
+  .about__bio-image p {
+    width: 80%;
+    padding: 0 5% 0 15%;
+    font-size: small;
   }
 }
 
@@ -481,6 +486,10 @@
 }
 
 @media screen and (min-width: 1600px) {
+  .about__bio-image {
+    height: 60vh;
+    width: 100%;
+  }
   .projects__bio-image {
     height: 50vh;
   }
