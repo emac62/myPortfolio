@@ -344,17 +344,15 @@
 }
 
 .projects__btns {
-  position: relative;
-  top: 0;
+  position: absolute;
+  top: 50%;
+  text-align: center;
   height: 100%;
   width: 100%;
   z-index: 1;
-  vertical-align: middle;
-  text-align: center;
 }
 
 .projects__btn {
-  vertical-align: middle;
   opacity: 0;
   color: #155598;
   -webkit-transition: all 0.5s ease-in-out;

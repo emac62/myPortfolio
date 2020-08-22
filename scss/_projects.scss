@@ -70,19 +70,18 @@
     }
 
     &__btns {
-        position: relative;
-        top: 0;
+        position: absolute;
+        top: 50%;
+        text-align: center;
         height: 100%;
         width: 100%;
         z-index: 1;
-        vertical-align: middle;
-        text-align: center;
+
 
     }
     
     
     &__btn {
-        vertical-align: middle;
         opacity: 0;
         color: set-text-color($secondary-color);
         @include transition-ease;
