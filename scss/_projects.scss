@@ -10,13 +10,14 @@
             rgba($primary-color, 0.6),
             rgba($primary-color, 0.3)
         ),
-            url('../img/sunrise1.jpg') center bottom;
+            url('../img/sunrise1.jpg') bottom;
         background-size: cover;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: flex-end;
 
+        
         .text-secondary {
             font-size: 2rem;
             margin-bottom: 2rem;
@@ -69,19 +70,19 @@
     }
 
     &__btns {
-        position: absolute;
+        position: relative;
         top: 0;
         height: 100%;
         width: 100%;
         z-index: 1;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
+        vertical-align: middle;
         text-align: center;
+
     }
     
     
     &__btn {
+        vertical-align: middle;
         opacity: 0;
         color: set-text-color($secondary-color);
         @include transition-ease;
