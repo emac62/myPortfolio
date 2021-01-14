@@ -478,9 +478,9 @@
 }
 
 .myTasks__image {
-  height: 50vh;
+  height: 25vh;
   width: auto;
-  background: url("../img/myTasks512.png") center top;
+  background: url("../img/myTasks152.png") center;
   background-size: auto;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -519,6 +519,7 @@
   padding: 0.5rem;
   color: #1d1d1d;
   text-align: center;
+  border-radius: 10pt;
 }
 
 .myTasks__about .task-link:hover {
@@ -541,6 +542,88 @@
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+.eduLog {
+  padding: 4rem 0 2rem 0;
+}
+
+.eduLog__image {
+  height: 25vh;
+  width: auto;
+  background: url("../img/EduLogWeb.png") center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.eduLog__info {
+  color: #1d1d1d;
+}
+
+.eduLog__about p {
+  padding: 2rem 15% 0 15%;
+  line-height: 1.5rem;
+}
+
+.eduLog__about .eduLog-link {
+  width: 50vw;
+  margin: 2rem auto 0 auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  grid-gap: 2rem;
+  background-color: #f0eee8;
+  padding: 0.5rem;
+  color: #1d1d1d;
+  text-align: center;
+}
+
+.eduLog__about .eduLog-link:hover {
+  background-color: #1d1d1d;
+  color: #f0Eee8;
+}
+
+.eduLog .badges-links {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.eduLog .badges-links img {
+  height: auto;
+  width: 300px;
+  vertical-align: middle;
+}
+
+.eduLog .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.eduLog footer {
+  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
+          transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
 body {
   background: #3890F6;
   color: #dec9a4;
@@ -554,7 +637,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: #e69720;
+  color: #dec9a4;
   text-decoration: none;
 }
 
@@ -565,6 +648,7 @@ a {
 .tasks-title {
   color: #1d1d1d;
   font-weight: bold;
+  text-align: center;
 }
 
 header {
@@ -611,4 +695,3 @@ footer {
   padding: 1rem;
   color: #dec9a4;
 }
-/*# sourceMappingURL=main.css.map */

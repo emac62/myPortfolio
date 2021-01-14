@@ -344,17 +344,15 @@
 }
 
 .projects__btns {
-  position: relative;
-  top: 0;
+  position: absolute;
+  top: 50%;
+  text-align: center;
   height: 100%;
   width: 100%;
   z-index: 1;
-  vertical-align: middle;
-  text-align: center;
 }
 
 .projects__btn {
-  vertical-align: middle;
   opacity: 0;
   color: #155598;
   -webkit-transition: all 0.5s ease-in-out;
@@ -480,9 +478,9 @@
 }
 
 .myTasks__image {
-  height: 50vh;
+  height: 100%;
   width: auto;
-  background: url("../img/myTasks512.png") center top;
+  background: url("../img/myTasks152.png") center;
   background-size: auto;
   background-repeat: no-repeat;
   display: -webkit-box;
@@ -556,7 +554,7 @@ h1, h2, h3 {
 }
 
 a {
-  color: #e69720;
+  color: black;
   text-decoration: none;
 }
 
@@ -613,4 +611,3 @@ footer {
   padding: 1rem;
   color: #dec9a4;
 }
-/*# sourceMappingURL=main.css.map */

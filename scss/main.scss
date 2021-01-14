@@ -6,6 +6,7 @@
 @import 'contact';
 @import 'responsive';
 @import 'mytasks';
+@import 'eduLog';
 
 
 body {
@@ -21,7 +22,7 @@ h1, h2, h3 {
 }
 
 a {
-    color: $secondary-color;
+    color:$text-color;
     text-decoration: none;
 }
 
@@ -32,6 +33,7 @@ a {
 .tasks-title {
     color: $black-color;
     font-weight: bold;
+    text-align: center;
 }
 
 header {
