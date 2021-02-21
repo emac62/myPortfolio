@@ -416,6 +416,12 @@
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 767px) {
+  .home h1 {
+    font-size: large;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .menu-btn {
     visibility: hidden;
@@ -695,4 +701,3 @@ footer {
   padding: 1rem;
   color: #dec9a4;
 }
-/*# sourceMappingURL=main.css.map */
