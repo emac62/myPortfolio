@@ -7,7 +7,7 @@
 @import 'responsive';
 @import 'mytasks';
 @import 'eduLog';
-
+@import 'eventsseen';
 
 body {
     background: $background-color;
@@ -74,7 +74,7 @@ main {
 footer {
     font-size: 1rem;
     position: fixed;
-    bottom: 0.4rem;
+    bottom: 0.5rem;
     right: 1rem;
     text-align: right;
     padding: 1rem;

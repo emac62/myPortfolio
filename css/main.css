@@ -630,8 +630,70 @@
           transform: rotate(90deg) translate(-3rem, -5rem);
 }
 
+.events {
+  padding: 4rem 0 2rem 0;
+}
+
+.events__image {
+  height: 50vh;
+  width: auto;
+  background: url("../img/EvSeenFinal3.png") center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.events__info {
+  color: #1d1d1d;
+}
+
+.events__about p, .events__about h3, .events__about .contact-evseen {
+  padding: 2rem 15% 0 15%;
+  line-height: 1.5rem;
+}
+
+.events__about h3, .events__about .contact-evseen {
+  text-align: center;
+}
+
+.events__about .contact-evseen a {
+  color: #dec9a4;
+  font-size: larger;
+}
+
+.events__about .contact-evseen a:hover {
+  color: #e69720;
+}
+
+.events .social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.events footer {
+  -webkit-transform: rotate(90deg) translate(-3rem, -5rem);
+          transform: rotate(90deg) translate(-3rem, -5rem);
+}
+
 body {
-  background: #3890F6;
+  background: #3891f6b7;
   color: #dec9a4;
   height: 100vh;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -695,9 +757,10 @@ main .social-icons a:hover {
 footer {
   font-size: 1rem;
   position: fixed;
-  bottom: 0.4rem;
+  bottom: 0.5rem;
   right: 1rem;
   text-align: right;
   padding: 1rem;
   color: #dec9a4;
 }
+/*# sourceMappingURL=main.css.map */
