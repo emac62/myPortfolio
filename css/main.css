@@ -125,6 +125,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   height: 100vh;
+  z-index: 1;
   overflow: hidden;
   background: #155598;
   list-style-type: none;
@@ -446,7 +447,7 @@
     color: #e2ca38;
   }
   .about__bio {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .projects__bio-image {
     height: 40vh;
@@ -763,4 +764,3 @@ footer {
   padding: 1rem;
   color: #dec9a4;
 }
-/*# sourceMappingURL=main.css.map */
