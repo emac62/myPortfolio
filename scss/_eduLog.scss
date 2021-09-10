@@ -1,13 +1,11 @@
 .eduLog {
   padding: 4rem 0 2rem 0;
 
-  &__image { 
+  &.slideshow-container { 
     height: 25vh;
       width: auto;
-      background: 
-          url('../img/EduLogWeb.png') center;
-      background-size: auto;
-      background-repeat: no-repeat;
+      
+    
       display: flex;
       flex-direction: column;
       align-items: center;
