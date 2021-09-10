@@ -105,9 +105,9 @@
             padding: 2rem 0;
             font-weight: 300;
             @include transition-ease;
-
+            
             &:hover {
-                color: $text-color;
+                color: $secondary-color;
             }
         }
     }
