@@ -153,7 +153,7 @@
           transform: translateX(0);
 }
 
-.nav .menu-nav__item.active > a {
+.nav .menu-nav__item.selected > a {
   color: #e69720;
 }
 
