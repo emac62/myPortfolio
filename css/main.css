@@ -841,6 +841,20 @@
   color: #d5d5d5;
 }
 
+.bingo__about .badges-links {
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bingo__about .badges-links img {
+  height: auto;
+  width: 300px;
+  vertical-align: middle;
+}
+
 .bingo .responsive-img {
   width: 60%;
   height: auto;
