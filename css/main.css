@@ -222,7 +222,7 @@
 }
 
 .about__bio {
-  width: 80%;
+  width: 60%;
   text-align: left;
 }
 
@@ -421,6 +421,15 @@
   .home h1 {
     font-size: large;
   }
+  .about__bio-image {
+    height: 75vh;
+  }
+  .about__bio {
+    font-size: 1rem;
+  }
+  .contact__list {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -445,9 +454,6 @@
   .nav .menu-nav__link {
     font-size: 1rem;
     color: #dec9a4;
-  }
-  .about__bio {
-    font-size: 1.25rem;
   }
   .projects__bio-image {
     height: 40vh;
@@ -957,8 +963,8 @@ footer {
 }
 
 .bB-Logo img {
-  height: 50px;
+  height: 100px;
   background-color: #dec9a4;
   border-radius: 50%;
-  padding: 2px;
+  padding: 20px;
 }
