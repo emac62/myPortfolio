@@ -35,7 +35,7 @@
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   
-  color: #435345;
+  color: $text-color;
 }
 
 
@@ -54,7 +54,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #435345;
+  background-color: $secondary-color;
 }
 
 /* Fading animation */

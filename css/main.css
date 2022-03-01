@@ -736,7 +736,7 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  color: #435345;
+  color: #dec9a4;
 }
 
 /* The dots/bullets/indicators */
@@ -753,7 +753,7 @@
 }
 
 .active, .dot:hover {
-  background-color: #435345;
+  background-color: #e69720;
 }
 
 /* Fading animation */
